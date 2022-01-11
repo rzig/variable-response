@@ -34,4 +34,4 @@ def update():
             mimetype="application/json"
         )
 
-app.run(port=3001)
+app.run(port=3001,host="0.0.0.0")
